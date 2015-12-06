@@ -12,15 +12,17 @@
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+.logo{
+	width:10%;
+	margin:1%;
+}
 
 header{
 	width:100%;
 	background-color:#00b8e1;
 }
 
-.intro{
-font-family:
-}
+
 
 li{
 	float:left;20%;	
@@ -35,21 +37,36 @@ li a{
 	margin:0 10% 0 0;
 	font-family:'Questrial', sans-serif;
 	font-size:1em;
-	
 }
 
 a:hover{
-color:#009;	
+	color:#009;	
 }
 
-.logo{
-width:10%;
-margin:1%;
+.primary-img{
+	width:100%;	
 }
 
-.icon{
-width:5%;
-margin:1%;	
+.intro{
+	font-size:3em;
+	padding:3.5%;
+	font-family:blackjack, sans-serif;
+	text-align:center;
+	background-color:#EDEDED;
+	border-radius:50%;
+	margin:1% 1% 0 1%;
+}
+
+.intro-p{
+	font-size:2em;
+	padding:2.5%;
+	font-family:blackjack, sans-serif;
+	text-align:center;
+}
+
+.blue{
+	color:#00b8e1;
+	
 }
 
 #intro-box{
@@ -57,9 +74,9 @@ margin:1%;
 	width:100%;
 }
 
-.intro{
-font-size:2em;
-padding:2.5%;
+.icon{
+	width:5%;
+	margin:1%;	
 }
 
 #column-one{
@@ -78,7 +95,7 @@ padding:2.5%;
 .title{
 	font-family:'Questrial', sans-serif;
 	font-size:1.2em;
-	padding:1%;
+	padding:0 0 2% 0;
 	font-weight:bold;
 	
 }
@@ -87,17 +104,28 @@ padding:2.5%;
 	font-family:'Questrial', sans-serif;
 	font-size:.8em;
 	text-align:justify;
-	margin:1%;
 	line-height:1.4em;
 }
 
 #my-work{
-width:100%;
-background-color:#00b8e1;
-padding:2%;
-clear:both;
+	background-color:#00b8e1;
+	clear:both;
 }
 
-h3{
-padding:1%;
+.sub{
+	padding:0 0 1% 0;
+}
+
+/*--------start of grid--------*/
+
+#grid-wrapper{
+width:85%;
+margin:0% auto;
+
+}
+
+.grid{
+width:33.3%;
+float:left;
+	
 }
